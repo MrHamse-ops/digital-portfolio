@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberDev | Portfolio</title>
+    <link rel="stylesheet" href="portofolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Cyber<span class="green-text">Dev</span></div>
+        <nav>
+            <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div style="margin-right:24px">
+          <button id="layoutToggle" class="btn-ghost">Switch Layout</button>
+        </div>
+    </header>
+
+    <!-- Merged content: Original layout -->
+    <main id="originalLayout">
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Full-Stack <br><span class="green-text">Developer</span></h1>
+                <p class="subtitle">Building digital experiences that merge creativity with technology.</p>
+                <p class="description">Specializing in modern web development and cyber systems.</p>
+                <button class="connectBtn btn-connect">Let's Connect</button>
+            </div>
+            <div class="hero-image">
+                <div class="image-glow">
+                    <img src="assets/profile.jpg" alt="Profile Picture" id="profileImg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="icon green-text"><i class="fa-solid fa-code"></i></div>
+                <h3>Frontend Development</h3>
+                <p>React, Vue, HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <div class="icon green-text"><i class="fa-solid fa-server"></i></div>
+                <h3>Backend Development</h3>
+                <p>Node.js, Python, MongoDB, PostgreSQL</p>
+            </div>
+            <div class="skill-card">
+                <div class="icon green-text"><i class="fa-solid fa-pen-nib"></i></div>
+                <h3>UI/UX Design</h3>
+                <p>Figma, Adobe XD, Prototyping, User Testing</p>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Merged content: Alternate layout (hidden by default) -->
+    <main id="alternateLayout" style="display:none">
+    <section id="home-alt" class="hero">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <h1>Full-Stack <span class="accent">Developer</span></h1>
+          <p class="lead">I build modern web apps and secure systems that scale.</p>
+          <p class="muted">React • Node.js • Python • Cloud • DevOps</p>
+          <div class="hero-actions">
+            <button class="connectBtn btn btn-primary">Let's Connect</button>
+            <a href="#projects" class="btn btn-ghost">See Projects</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="avatar-ring">
+            <img src="assets/profile.jpg" alt="Profile" class="avatar">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section: shows your picture as a featured project -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/profile.jpg" alt="Project screenshot or profile">
+          </div>
+          <div class="project-body">
+            <h3>Personal Profile / Project</h3>
+            <p>This project showcases my profile and personal work. Use this image as the featured portrait.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills-alt" class="section">
+      <h2>Technical Expertise</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="ico"><i class="fa-solid fa-code"></i></div>
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, React, Vue</p>
+        </div>
+        <div class="card">
+          <div class="ico"><i class="fa-solid fa-server"></i></div>
+          <h3>Backend</h3>
+          <p>Node.js, Python, Express, Databases</p>
+        </div>
+        <div class="card">
+          <div class="ico"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Security</h3>
+          <p>Secure design, auth, auditing, CI/CD</p>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CyberDev. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="portofolio.js"></script>
+</body>
+</html>
