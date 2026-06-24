@@ -1,25 +1,4 @@
-Digital Portfolio
 
-
-# ✨ Features
-
-✅ Modern Dark UI
-
-✅ Responsive Design
-
-✅ Animated Hero Section
-
-✅ Skills Showcase
-
-✅ Featured Projects
-
-✅ Contact Section
-
-✅ Fast Performance
-
-✅ Clean Layout
-
----
 
 # 🛠️ Tech Stack
 
