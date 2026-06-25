@@ -36,7 +36,6 @@ index.html
 Use VS Code Live Server
 
 
-
 # 🎯 Future Improvements
 
 - 🌐 Multi-language Support
