@@ -58,8 +58,6 @@ Founder of **Buruud Tech**
 GitHub:
 https://github.com/MrHamse-ops
 
-📢 Share with others
-
 <p align="center">
 Made with ❤️ by Hamse | حمزة 🐐
 </p>
