@@ -38,7 +38,6 @@ Use VS Code Live Server
 - 🌐 Multi-language Support
 - 🌙 Advanced Theme Switching
 - 📱 Better Mobile Experience
-- ⚡ More Animations
 - 📊 Project Analytics
 
 ---
