@@ -20,7 +20,6 @@ git clone https://github.com/MrHamse-ops/digital-portfolio.git
 ```bash
 cd digital-portfolio
 ```
-
 ### 3️⃣ Run Project
 
 Open:
